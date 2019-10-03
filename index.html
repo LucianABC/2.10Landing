@@ -11,30 +11,34 @@
     <body>
 
         <header>
-            <nav class="nav contenedor flex">
+            <div class="nav contenedor flex">
                 <h1>Noxu</h1>
-                <a><i class="fa fa-bars"></i>
+                <label for="check">
+                     <i class="fa fa-bars"></i>
+                </label>
+                <input type= checkbox id="check">
+                <nav class="menu flex">
+                    <ul >
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Woman</a></li>
+                        <li><a href="#">Man</a></li>
+                        <li><a href="#">Unisex</a></li>
+                        <li><a href="#">Accessories</a>
+                            <ul>
+                                <li><a href="#">Watches</a></li>    
+                                <li><a href="#">Chains</a></li>
+                                <li><a href="#">Earing</a></li>
+                                <li><a href="#">Hats</a></li>    
+                            </ul>    
+                        </li>
+                    </ul>
+                    <form action="">
+                            <input type="search" name="search" placeholder="search"/>
+                            <button type="submit">Search</button>
+                    </form>    
+                </nav>
 
-                <ul class="flex">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Woman</a></li>
-                    <li><a href="#">Man</a></li>
-                    <li><a href="#">Unisex</a></li>
-                    <li><a href="#">Accessories</a>
-                        <ul>
-                            <li><a href="#">Watches</a></li>    
-                            <li><a href="#">Chains</a></li>
-                            <li><a href="#">Earing</a></li>
-                            <li><a href="#">Hats</a></li>    
-                        </ul>    
-                    </li>
-                </ul>
-
-                <form action="">
-                    <input type="search" name="search" placeholder="search"/>
-                    <button type="submit">Search</button>
-                </form>    
-            </nav>
+            </div>
         </header>
 
 

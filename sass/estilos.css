@@ -3,6 +3,7 @@ body {
 }
 body a {
   text-decoration: none;
+  color: rgba(255, 255, 255, 0.5);
 }
 body ul {
   list-style: none;
@@ -21,18 +22,29 @@ body ul {
 
 .nav {
   background-color: black;
-  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.nav .menu {
+  display: none;
 }
 .nav h1 {
   color: white;
   font-weight: 700;
   font-size: 1.8rem;
+  margin: 0;
 }
-.nav a {
+.nav label {
   color: rgba(255, 255, 255, 0.5);
 }
-.nav i {
-  color: rgba(255, 255, 255, 0.5);
+.nav #check {
+  display: none;
+}
+.nav #check:checked + .menu {
+  display: flex;
+  flex-direction: column;
 }
 
 /*# sourceMappingURL=estilos.css.map */
