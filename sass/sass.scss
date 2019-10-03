@@ -21,15 +21,29 @@ body {
     display: flex;
 }
 
+.columna {
+    flex-direction: column;
+}
+
+.justificado {
+    justify-content: space-between;
+}
 .nav {
     background-color: black;
-    justify-content: space-between;
     align-items: center;
     padding-top: 16px;
     padding-bottom: 16px;
   
     .menu {
         display:none;
+        transition: ease all 0.3s;
+
+        .drop-down {
+         
+            padding: 10px 0;
+            box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+ 
+        }
     }
     h1{
         color: white;
@@ -37,20 +51,19 @@ body {
         font-size: 1.8rem;
         margin:0 ;
     }
+
     label {
      color: rgba(255,255,255,.5);
-
     }
+
     #check {
         display:none; 
- 
-        &:checked + .menu{
-            
-                display: flex;
-                flex-direction: column;
-            
+        &:checked  .menu{
+            display: flex;
+            flex-direction: column;
         }
     }
+
 
 }
 
