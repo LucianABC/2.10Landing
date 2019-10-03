@@ -2,7 +2,9 @@ body {
     font-family:  'Lato', sans-serif;
     a {
         text-decoration: none;
-
+    }
+    ul {
+        list-style: none;
     }
 }
 
@@ -18,7 +20,7 @@ body {
     display: flex;
 }
 
-.menu {
+.nav {
     background-color: black;
     flex-direction: row;
     h1{
@@ -29,8 +31,9 @@ body {
     a {
      color: rgba(255,255,255,.5);
     }
-    li{
-        
+    i {
+     color: rgba(255,255,255,.5);
+
     }
 
 }

@@ -4,6 +4,9 @@ body {
 body a {
   text-decoration: none;
 }
+body ul {
+  list-style: none;
+}
 
 .contenedor {
   padding-left: 16px;
@@ -16,16 +19,19 @@ body a {
   display: flex;
 }
 
-.menu {
+.nav {
   background-color: black;
   flex-direction: row;
 }
-.menu h1 {
+.nav h1 {
   color: white;
   font-weight: 700;
   font-size: 1.8rem;
 }
-.menu a {
+.nav a {
+  color: rgba(255, 255, 255, 0.5);
+}
+.nav i {
   color: rgba(255, 255, 255, 0.5);
 }
 
