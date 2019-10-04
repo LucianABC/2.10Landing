@@ -114,6 +114,8 @@ label {
 
 .seccion2 {
   background-color: black;
+  width: 100%;
+  justify-content: center;
 }
 .seccion2 button {
   width: 100px;
@@ -145,6 +147,14 @@ label {
 .card .info, .card .estrellas {
   padding: 5px;
   margin: 0;
+}
+
+.item {
+  width: 260px;
+}
+
+#shoes {
+  background-image: url();
 }
 
 /*# sourceMappingURL=estilos.css.map */

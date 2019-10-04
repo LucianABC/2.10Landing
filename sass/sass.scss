@@ -116,7 +116,9 @@ body {
 
 .seccion2 {
     background-color: black;
-    
+    width: 100%;
+    justify-content: center;
+
     button {
         width: 100px;
         height: 50px;
@@ -131,6 +133,7 @@ body {
         font-weight: 700;
     }
 }
+
 .card {
     width: 260px;
     height: 400px;
@@ -147,5 +150,12 @@ body {
         padding: 5px;
         margin:0 ;
     }
-    
+}
+
+.item{
+    width: 260px;
+}
+
+#shoes {
+    background-image: url()
 }
