@@ -1,5 +1,7 @@
 body {
   font-family: "Lato", sans-serif;
+  margin: 0;
+  color: white;
 }
 body a {
   text-decoration: none;
@@ -8,12 +10,24 @@ body a {
 body ul {
   list-style: none;
 }
+body h2 {
+  font-weight: 700;
+}
+body h3 {
+  font-style: italic;
+  font-weight: 400;
+}
 
 .contenedor {
   padding-left: 16px;
   padding-right: 16px;
   padding-top: 8px;
   padding-bottom: 8px;
+}
+
+.backgroundblanco {
+  background-color: white;
+  color: black;
 }
 
 .flex {
@@ -24,8 +38,16 @@ body ul {
   flex-direction: column;
 }
 
+.italica {
+  font-style: italic;
+}
+
 .justificado {
   justify-content: space-between;
+}
+
+.centro {
+  justify-content: center;
 }
 
 .nav {
@@ -43,6 +65,7 @@ body ul {
   background-color: black;
   width: 100%;
   top: 50px;
+  left: 0;
 }
 
 h1 {
@@ -62,6 +85,66 @@ label {
 #check:checked + .menu {
   display: flex;
   flex-direction: column;
+}
+
+.submenu {
+  display: none;
+}
+
+#check2 {
+  display: none;
+}
+#check2:checked + .submenu {
+  display: block;
+}
+
+.seccion1 {
+  background-image: url(../img/hero-background.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+  color: white;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+.seccion1 .title {
+  text-align: center;
+}
+
+.seccion2 {
+  background-color: black;
+}
+.seccion2 button {
+  width: 100px;
+  height: 50px;
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin: 30px;
+  padding-left: 7px;
+  padding-right: 7px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.card {
+  width: 260px;
+  height: 400px;
+  color: black;
+  border-radius: 5px;
+  overflow: hidden;
+  font-size: 20px;
+  margin: 15px;
+}
+.card img {
+  max-width: 100%;
+  height: auto;
+}
+.card .info, .card .estrellas {
+  padding: 5px;
+  margin: 0;
 }
 
 /*# sourceMappingURL=estilos.css.map */
