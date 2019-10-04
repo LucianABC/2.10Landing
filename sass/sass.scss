@@ -2,6 +2,7 @@ body {
     font-family:  'Lato', sans-serif;
     margin: 0;
     color: white;
+    background-color: black;
     a {
         text-decoration: none;
         color: rgba(255,255,255,.5);
@@ -53,7 +54,7 @@ body {
 
 
 .nav {
-    background-color: black;
+
     padding-top: 16px;
     padding-bottom: 16px;
     justify-content: space-between;
@@ -64,7 +65,6 @@ body {
         transition: ease all 0.3s;
         display: none;
         position: absolute;
-        background-color: black;
         width: 100%;
         top: 50px;
         left:0;    
@@ -115,7 +115,7 @@ body {
 }
 
 .seccion2 {
-    background-color: black;
+    
     width: 100%;
     justify-content: center;
 
@@ -154,8 +154,43 @@ body {
 
 .item{
     width: 260px;
+    background-size: cover;
+    background-position: center;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 16px;
 }
 
 #shoes {
-    background-image: url()
+    background-image: url(../img/shoes.jpg);  
+    height: 260px;
+}
+
+#jeans {
+    background-image: url(../img/jeans.jpeg);
+    height: 360px;
+}
+
+#shirts {
+    background-image: url(../img/shirts.jpg);
+    height: 400px;
+}
+
+#outfits{
+    background-image: url(../img/outfits.jpg);
+    height: 500px;
+}
+
+
+.footer {
+    background-color: #323232;
+    text-align: center;
+    h1 {
+        margin: 48px;
+        font-size: 35px;
+        border-bottom: 1px solid white; 
+        width: 15rem;
+        padding-bottom: 15px;
+
+    }
 }
