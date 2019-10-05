@@ -9,16 +9,27 @@ body a {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.5);
 }
+body p {
+  margin: 0 0 8px;
+}
 body ul {
   list-style: none;
 }
 body h2 {
   font-weight: 700;
   font-size: 40px;
+  margin: 48px;
 }
 body h3 {
   font-style: italic;
   font-weight: 400;
+  font-size: 28px;
+  margin: 0 0 8px;
+}
+body h4 {
+  font-size: 18px;
+  margin: 0 0 8px;
+  font-weight: bold;
 }
 
 .contenedor {
@@ -195,6 +206,9 @@ label {
   border-bottom: 1px solid white;
   width: 15rem;
   padding-bottom: 15px;
+}
+.footer h2 {
+  margin: 0 0 8px;
 }
 
 /*# sourceMappingURL=estilos.css.map */

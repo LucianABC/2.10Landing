@@ -8,6 +8,10 @@ body {
         text-decoration: none;
         color: rgba(255,255,255,.5);
     }
+    p {
+        margin: 0 0 8px;
+
+    }
     ul {
         list-style: none;
     }
@@ -15,11 +19,20 @@ body {
     h2{
         font-weight: 700;
         font-size: 40px;
+        margin: 48px;
         
     }
     h3 {
         font-style: italic;
         font-weight: 400;
+        font-size: 28px;
+        margin: 0 0 8px;
+
+    }
+    h4 {
+        font-size: 18px;
+        margin: 0 0 8px;
+        font-weight: bold;
     }
 }
 
@@ -199,6 +212,10 @@ body {
         border-bottom: 1px solid white; 
         width: 15rem;
         padding-bottom: 15px;
+    }
+    h2 {
+        margin: 0 0 8px;
+
     }
     
 }
