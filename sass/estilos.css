@@ -14,6 +14,7 @@ body ul {
 }
 body h2 {
   font-weight: 700;
+  font-size: 40px;
 }
 body h3 {
   font-style: italic;
@@ -49,7 +50,7 @@ body h3 {
 }
 
 .centro {
-  justify-content: center;
+  align-items: center;
 }
 
 .button {
@@ -149,6 +150,11 @@ label {
   margin: 0;
 }
 
+.items h2 {
+  font-size: 38px;
+  padding: 16px;
+}
+
 .item {
   width: 260px;
   background-size: cover;
@@ -156,6 +162,7 @@ label {
   font-size: 22px;
   font-weight: 400;
   margin: 16px;
+  text-align: center;
 }
 
 #shoes {
