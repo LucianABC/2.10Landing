@@ -22,18 +22,21 @@
     }
 }
 
-@include desktop {
-    .ocultar {
+
+.ocultar {
+    display: none;
+    @include desktop {
         display: flex;
         justify-content: space-between;
         margin: 20px;
     }
+    
     .view {
-        width: 100%;
+        width: 25%;
         height: 300px;
         padding-right: 15px;
         padding-left: 15px;
         background-color : rgba(0, 0, 0, 0.5);
-    }
-}
+        } 
 
+}

@@ -111,21 +111,24 @@ label {
   margin: 20px;
 }
 
+.ocultar {
+  display: none;
+}
 @media (min-width: 992px) {
   .ocultar {
     display: flex;
     justify-content: space-between;
     margin: 20px;
   }
-
-  .view {
-    width: 100%;
-    height: 300px;
-    padding-right: 15px;
-    padding-left: 15px;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
 }
+.ocultar .view {
+  width: 25%;
+  height: 300px;
+  padding-right: 15px;
+  padding-left: 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 .seccion2 {
   width: 100%;
   justify-content: center;
@@ -249,10 +252,6 @@ body h4 {
 
 .centro {
   align-items: center;
-}
-
-.ocultar {
-  display: none;
 }
 
 /*# sourceMappingURL=estilos.css.map */
