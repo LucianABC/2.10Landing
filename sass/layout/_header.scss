@@ -8,10 +8,11 @@
     margin: 0;  
     text-align: center;
     justify-content: center;
+    padding: 35px;
 
     h2 {
         font-size: 27px;
-        margin: 20px;
+        margin:0;
     }
     h3 {
         font-size: 21px;
@@ -32,11 +33,18 @@
     }
     
     .view {
+        height: 25%;
         width: 25%;
-        height: 300px;
-        padding-right: 15px;
-        padding-left: 15px;
+        padding: 15px;
+        padding-top: 35px;
+        padding-bottom: 35px;
         background-color : rgba(0, 0, 0, 0.5);
+        margin: 25px;
         } 
-
-}
+        button {
+            height: 65px;
+        }
+        h3 {
+            font-size: 24px;
+        }
+} 
