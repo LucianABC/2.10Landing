@@ -85,6 +85,11 @@ body h4 {
   position: relative;
 }
 
+.fa-bars {
+  font-size: 32px;
+  font-weight: 400;
+}
+
 .menu {
   transition: ease all 0.3s;
   display: none;
@@ -135,6 +140,13 @@ label {
   display: flex;
   justify-content: center;
 }
+.seccion1 h2 {
+  font-size: 27px;
+  margin: 20px;
+}
+.seccion1 h3 {
+  font-size: 21px;
+}
 .seccion1 .title {
   text-align: center;
 }
@@ -142,6 +154,7 @@ label {
 .seccion2 {
   width: 100%;
   justify-content: center;
+  text-align: center;
 }
 
 .card {
@@ -210,6 +223,17 @@ label {
 }
 .footer h2 {
   margin: 0 0 8px;
+}
+.footer a {
+  color: #007BFF;
+}
+
+.imgcont {
+  padding: 15px;
+}
+.imgcont img {
+  height: auto;
+  width: 100%;
 }
 
 /*# sourceMappingURL=estilos.css.map */
