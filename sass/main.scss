@@ -1,0 +1,84 @@
+@import './mixins';
+@import './components';
+@import './layout/nav';
+@import './layout/footer';
+@import './layout/header';
+@import './sections/seccion2';
+@import './sections/seccion3';
+ 
+body {
+    font-family:  'Lato', sans-serif;
+    margin: 0;
+    color: white;
+    background-color: black;
+    font-size: 18px;
+    a {
+        text-decoration: none;
+        color: rgba(255,255,255,.5);
+    }
+    p {
+        margin: 0 0 8px;
+
+    }
+    ul {
+        list-style: none;
+    
+    }
+    
+    h2{
+        font-weight: 700;
+        font-size: 40px;
+        margin: 48px;
+        
+    }
+    h3 {
+        font-style: italic;
+        font-weight: 400;
+        font-size: 28px;
+        margin: 0 0 8px;
+
+    }
+    h4 {
+        font-size: 18px;
+        margin: 0 0 8px;
+        font-weight: bold;
+    }
+}
+
+
+.contenedor {
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.backgroundblanco{
+    background-color: white;
+    color: black;
+}
+
+.flex {
+    display: flex;
+    
+}
+
+.columna {
+    flex-direction: column;
+
+}
+
+.italica {
+    font-style: italic;
+}
+.justificado {
+     justify-content: space-between;
+}
+
+.centro {
+   align-items: center;
+}
+
+.ocultar {
+    display: none;
+}

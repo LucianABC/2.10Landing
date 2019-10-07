@@ -1,0 +1,54 @@
+
+
+.nav {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    justify-content: space-between;
+    position: relative;
+    }
+    .fa-bars {
+        font-size: 32px;
+        font-weight: 400;
+    }
+    h1{
+        color: white;
+        font-weight: 700;
+        font-size: 1.8rem;
+        margin:0 ;
+    }
+
+    label {
+     color: rgba(255,255,255,.5);
+    }
+
+    
+ 
+.menu {
+    transition: ease all 0.3s;
+    display: none;
+    position: absolute;
+    width: 100%;
+    top: 50px;
+    left:0;
+    background-color: black;
+}
+#check {
+    display:none; 
+    &:checked  + .menu{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
+.submenu{
+    display: none;
+}
+
+#check2 {
+    display: none;
+    &:checked + .submenu{
+        display:block;
+    }
+}

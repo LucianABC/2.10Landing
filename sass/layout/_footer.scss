@@ -1,0 +1,27 @@
+
+.footer {
+    background-color: #323232;
+    text-align: center;
+    h1 {
+        margin: 48px;
+        font-size: 35px;
+        border-bottom: 1px solid white; 
+        width: 15rem;
+        padding-bottom: 15px;
+    }
+    h2 {
+        margin: 0 0 8px;
+
+    }
+    a {
+        color: #007BFF;
+    }
+}
+
+.imgcont {
+    padding: 15px;
+   img {
+    height: auto;
+    width: 100%;
+    }
+}

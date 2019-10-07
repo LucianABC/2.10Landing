@@ -1,0 +1,36 @@
+.items {
+    h2 {
+        font-size: 38px;
+        padding: 16px;
+    }
+}
+.item{
+    width: 260px;
+    background-size: cover;
+    background-position: center;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 16px;
+    text-align: center;
+}
+
+#shoes {
+    background-image: url(../../img/shoes.jpg);  
+    height: 260px;
+}
+
+#jeans {
+    background-image: url(../../img/jeans.jpeg);
+    height: 360px;
+}
+
+#shirts {
+    background-image: url(../../img/shirts.jpg);
+    height: 400px;
+}
+
+#outfits{
+    background-image: url(../../img/outfits.jpg);
+    height: 500px;
+}
+

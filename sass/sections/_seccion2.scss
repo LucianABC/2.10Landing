@@ -1,0 +1,27 @@
+
+.seccion2 {
+    
+    width: 100%;
+    justify-content: center;;
+    text-align: center
+
+}
+
+.card {
+    width: 260px;
+    height: 400px;
+    color: black;
+    border-radius: 5px;
+    overflow: hidden;
+    font-size: 20px;
+    margin: 15px;
+    img {
+       max-width:100%;
+       height: auto;
+    }
+    .info,  .estrellas {
+        padding: 5px;
+        margin:0 ;
+    }
+}
+
