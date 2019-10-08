@@ -3,39 +3,56 @@
 }
 .items {
     width: 100%;
+    @include desktop {
+        flex-direction:row;
+    }
     h2 {
         font-size: 38px;
         padding: 16px;
     }
 }
 .item{
-    width: 260px;
+    
     background-size: cover;
-    background-position: center;
+    background-position: center center;
     font-size: 22px;
     font-weight: 400;
-    margin: 16px;
+    margin: 10px;
     text-align: center;
-}
+    box-sizing: border-box;
+} 
 
 #shoes {
     background-image: url(../../img/shoes.jpg);  
-    height: 260px;
-    max-height: 400px;
+    height: 250px;
+    width: 70vw;
+    max-width: 700px;
+
 }
 
 #jeans {
     background-image: url(../../img/jeans.jpeg);
-    height: 360px;
+    height: 400px;
+    width: 70vw;
+    max-width: 340px;
 } 
 
 #shirts {
     background-image: url(../../img/shirts.jpg);
     height: 400px;
-}
+    width: 70vw;
+    max-width: 340px;
+} 
 
 #outfits{
     background-image: url(../../img/outfits.jpg);
-    height: 500px;
+    min-height: 350px;
+    height: 700px;
+    max-height: 40rem;
+    margin-bottom: 25px;
 }
 
+.items1{
+    flex-wrap: wrap;
+
+}
