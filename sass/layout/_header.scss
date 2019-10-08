@@ -1,4 +1,4 @@
-@import '../mixins';
+
 .header {
     background-image: url(../../img/hero-background.jpg);
     background-size: cover;
@@ -44,7 +44,15 @@
         button {
             height: 65px;
         }
+        h2 {
+            font-size: 24px; 
+        }
         h3 {
             font-size: 24px;
         }
+
+    .textoimagen {
+        text-align: center;
+        padding-top: 28px;
+    }
 } 

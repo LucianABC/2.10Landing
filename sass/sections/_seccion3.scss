@@ -1,4 +1,8 @@
+.seccion3 {
+    width: 100%;
+}
 .items {
+    width: 100%;
     h2 {
         font-size: 38px;
         padding: 16px;
@@ -17,12 +21,13 @@
 #shoes {
     background-image: url(../../img/shoes.jpg);  
     height: 260px;
+    max-height: 400px;
 }
 
 #jeans {
     background-image: url(../../img/jeans.jpeg);
     height: 360px;
-}
+} 
 
 #shirts {
     background-image: url(../../img/shirts.jpg);

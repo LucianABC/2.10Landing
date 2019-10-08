@@ -1,3 +1,35 @@
+.contenedor {
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.backgroundblanco {
+  background-color: white;
+  color: black;
+}
+
+.flex {
+  display: flex;
+}
+
+.columna {
+  flex-direction: column;
+}
+
+.italica {
+  font-style: italic;
+}
+
+.justificado {
+  justify-content: space-between;
+}
+
+.centro {
+  align-items: center;
+}
+
 .button {
   width: 100px;
   height: 50px;
@@ -18,24 +50,27 @@
   justify-content: space-between;
   position: relative;
 }
-
-.fa-bars {
+@media (min-width: 992px) {
+  .nav {
+    height: 74px;
+    box-sizing: border-box;
+    align-items: center;
+  }
+}
+.nav .fa-bars {
   font-size: 32px;
   font-weight: 400;
 }
-
-h1 {
+.nav h1 {
   color: white;
   font-weight: 700;
   font-size: 1.8rem;
   margin: 0;
 }
-
-label {
+.nav label {
   color: rgba(255, 255, 255, 0.5);
 }
-
-.menu {
+.nav .menu {
   transition: ease all 0.3s;
   display: none;
   position: absolute;
@@ -44,11 +79,10 @@ label {
   left: 0;
   background-color: black;
 }
-
-#check {
+.nav #check {
   display: none;
 }
-#check:checked + .menu {
+.nav #check:checked + .menu {
   display: flex;
   flex-direction: column;
 }
@@ -134,8 +168,15 @@ label {
 .ocultar button {
   height: 65px;
 }
+.ocultar h2 {
+  font-size: 24px;
+}
 .ocultar h3 {
   font-size: 24px;
+}
+.ocultar .textoimagen {
+  text-align: center;
+  padding-top: 28px;
 }
 
 .seccion2 {
@@ -153,15 +194,43 @@ label {
   font-size: 20px;
   margin: 15px;
 }
+@media (min-width: 992px) {
+  .card {
+    width: 270px;
+    height: 300px;
+  }
+}
 .card img {
   max-width: 100%;
   height: auto;
+}
+.card .imagencard {
+  height: 370px;
+  overflow: hidden;
 }
 .card .info, .card .estrellas {
   padding: 5px;
   margin: 0;
 }
 
+.desktopalignment {
+  width: 100%;
+}
+@media (min-width: 992px) {
+  .desktopalignment {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+.seccion3 {
+  width: 100%;
+}
+
+.items {
+  width: 100%;
+}
 .items h2 {
   font-size: 38px;
   padding: 16px;
@@ -180,6 +249,7 @@ label {
 #shoes {
   background-image: url(../../img/shoes.jpg);
   height: 260px;
+  max-height: 400px;
 }
 
 #jeans {
@@ -229,38 +299,6 @@ body h4 {
   font-size: 18px;
   margin: 0 0 8px;
   font-weight: bold;
-}
-
-.contenedor {
-  padding-left: 16px;
-  padding-right: 16px;
-  padding-top: 8px;
-  padding-bottom: 8px;
-}
-
-.backgroundblanco {
-  background-color: white;
-  color: black;
-}
-
-.flex {
-  display: flex;
-}
-
-.columna {
-  flex-direction: column;
-}
-
-.italica {
-  font-style: italic;
-}
-
-.justificado {
-  justify-content: space-between;
-}
-
-.centro {
-  align-items: center;
 }
 
 /*# sourceMappingURL=estilos.css.map */

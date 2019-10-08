@@ -1,4 +1,5 @@
 @import './mixins';
+@import './common';
 @import './components';
 @import './layout/nav';
 @import './layout/footer';
@@ -45,40 +46,3 @@ body {
     }
 }
 
-
-.contenedor {
-    padding-left: 16px;
-    padding-right: 16px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-}
-
-.backgroundblanco{
-    background-color: white;
-    color: black;
-}
-
-.flex {
-    display: flex;
-    
-}
-
-.columna {
-    flex-direction: column;
-
-}
-
-.italica {
-    font-style: italic;
-}
-.justificado {
-     justify-content: space-between;
-}
-
-.centro {
-   align-items: center;
-}
-
-.ocultar {
-    
-}
